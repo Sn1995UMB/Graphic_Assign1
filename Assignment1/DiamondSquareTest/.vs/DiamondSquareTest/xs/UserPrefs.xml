@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{A3263372-8547-F878-BF24-ACC3DDD8DED5}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ExampleScript.cs">
+    <Files>
+      <File FileName="Assets/DiamondSquareTerrain.cs" Line="104" Column="1" />
+      <File FileName="Assets/WaveShader.shader" Line="39" Column="96" />
+      <File FileName="../../../../Documents/:Users:hongngocdo:Desktop:Graphic_Assign1:Assignment1:DiamondSquareTest:Assets:Example.cs" Line="8" Column="27" />
+      <File FileName="Assets/ExampleScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
