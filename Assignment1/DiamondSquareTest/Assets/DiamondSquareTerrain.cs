@@ -8,16 +8,25 @@ public class DiamondSquareTerrain : MonoBehaviour {
     public float mHeight;
     Vector3[] mVerts;
     int mVertCount;
+    GameObject sun;
 
 
 
 	// Use this for initialization
 	void Start () {
+        sun = GameObject.Find("Sun");
         CreateTerrain();
 	}
-	
-	// Update is called once per frame
-	void CreateTerrain() {
+
+    private void Update()
+    {
+        MeshRenderer renderer = this.gameObject.GetComponent<MeshRenderer>();
+        renderer.material.SetColor("_PointLightColor", sun.GetComponent<Light>().color);
+        renderer.material.SetVector("_PointLightPosition", sun.GetComponent<Sun>().GetLightPosition());
+    }
+
+    // Update is called once per frame
+    void CreateTerrain() {
         mVertCount = (mDivisions + 1) * (mDivisions + 1);
         mVerts = new Vector3[mVertCount];
         Vector2[] uvs = new Vector2[mVertCount];

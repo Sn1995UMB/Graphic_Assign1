@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{A3263372-8547-F878-BF24-ACC3DDD8DED5}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/Compiled-Legacy Shaders-Diffuse.shader">
     <Files>
       <File FileName="Assets/DiamondSquareTerrain.cs" Line="104" Column="1" />
       <File FileName="Assets/WaveShader.shader" Line="39" Column="96" />
       <File FileName="Assets/ExampleScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Light.cs" Line="15" Column="40" />
-      <File FileName="Assets/CameraController.cs" Line="18" Column="5" />
-      <File FileName="Assets/CapController.cs" Line="6" Column="5" />
+      <File FileName="Assets/CameraController.cs" Line="6" Column="5" />
+      <File FileName="Assets/CapController.cs" Line="16" Column="18" />
+      <File FileName="Assets/PhongShader.shader" Line="7" Column="46" />
+      <File FileName="Temp/Compiled-Legacy Shaders-Diffuse.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
